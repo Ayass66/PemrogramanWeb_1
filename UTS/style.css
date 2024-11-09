@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/bg.jpg);
+    background-size: 1500px 1600px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 145px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(218, 140, 140);
+    /* justify-content: flex-end ;
+    list-style: none;
+    display: flex;
+    gap: 20px;  */
+}
+
+.menu li{
+    margin: 5px 20px;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(92, 59, 59);
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container1 {
+    display: flex;
+    margin: 80px 50px;
+}
+
+.isi1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: rgb(92, 59, 59);
+    font-size: 27px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.covrimg{
+    width: 200%;
+    height: 200%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.Bkanan{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.Bkanan h4{
+    color: rgb(47, 28, 28);
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.container2{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.container2 .wrapper {
+    width: 30%;
+}
+
+.container2 h4{
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.isi2 ul{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Bkiri3 {
+    width: 600px;
+    height: 450px;
+    border-radius: 120px 0px 45px 45px;
+    padding: 20px;
+}
+
+.Bkiri3 h1 {
+    font-size: 1.8em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.Bkiri3 form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+} 
+
+.mess{
+    /* height: 20px; */
+    padding-bottom: 100px;
+    width: 490px;
+    margin: 10px;
+    padding-left: 7px;
+    font-weight:600;
+}
+
+.Bkanan3{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    width: 35%;
+    height: 490px;
+    border-radius: 0px 200px 130px 100px;
+    justify-content: center;
+}
+
+.infol{
+    height: 90px;
+    width: 90px;
+    margin: 0px 0px -20px 10px;
+}
+
+footer{
+    margin: 15px 50px;
+    height: 65vh;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+}
+
+content{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.Bkiri4{
+    width: 68%;
+}
+
+.Bkiri4 form{
+    margin: 40px 0px;
+}
+
+.Bkiri4 form ::placeholder{
+    color: white;
+}
+
+.subs{
+    height: 30px;
+    width: 450px ;
+    margin-right: 10px;
+    background-color: #a73b55;
+    font-family: sans-serif;
+    padding-left: 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    border-color: white;
+}
+button{
+    height: 33px;
+    width: 190px;
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(119, 84, 84);
+    border-radius: 0px 20px 20px 0px;
+    background-color: #dae4f0;
+    border-width: 3px;
+}
+
+kotak {
+    display: flex;
+}
+
+box{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a5b0bd;
+    height: 190px;
+    width: 145px;
+    margin: 0px 15px;
+    justify-content: center;
+}
+
+box>h6{
+    font-family: sans-serif;
+    color: white;
+    font-size: 11.5px;
+    transform: scale(1.3);
+    margin: 12px 0px;
+    margin-left: 28px;
+}
+
+.Bkanan4{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abtext h2{
+    color: rgb(108, 69, 69);
+    margin: 0px 0px 30px 0px;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+
+.abtext p{
+    color: rgb(90, 52, 52);
+    font-size: 16px;
+}
+
+.sosmed{
+    margin: 25px 0px 0px 0px;
+}
+
+.logsos{
+    margin: 0px 17px;
+    height: 27px;
+    width: 27px;
+}
+
+.cpr{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.sbkanan{
+    margin-right: 60px;
+}
+
+.sbkanan a{
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif;
+}
